@@ -1,0 +1,9 @@
+# master.yml.smp
+---
+
+- hosts: master
+  roles:
+    - mylab_node/ssh
+    - mylab_node/chrony
+    - mylab_node/timezone
+    - mylab_node/git

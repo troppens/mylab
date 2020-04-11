@@ -1,0 +1,8 @@
+# nodes.yml.smp
+---
+
+- hosts: nodes
+  roles:
+    - mylab_node/ssh
+    - mylab_node/chrony
+    - mylab_node/timezone
